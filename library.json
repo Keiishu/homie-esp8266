@@ -30,18 +30,21 @@
   "dependencies": [
     {
       "name": "ArduinoJson",
-      "version": "~6.11.4"
-    },
-    {
-      "name": "AsyncMqttClient",
-      "version": "^0.8.0"
+      "version": "^6.11.4"
     },
     {
       "name": "Bounce2",
       "version": "^2.1.0"
     },
     {
-      "name": "ESP Async WebServer"
+      "owner": "ottowinter",
+      "name": "AsyncMqttClient-esphome",
+      "version": "^0.8.6"
+    },
+    {
+      "owner": "ottowinter",
+      "name": "ESPAsyncWebServer-esphome",
+      "version": "^3.0.0"
     }
   ],
   "export": {
